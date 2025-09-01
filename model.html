@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toyota Models</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+      <div class="logo-img">
+        <img src="images/toyotalgb.png" alt="Toyota LGB">
+      </div>
+
+    <div class="navbar-right">
+      <a href="#">Gazoo Racing</a>
+      <div class="dropdown">Model</div>
+      <a href="#">More</a>
+    </div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab-btn active" data-target="mpv">MPV</button>
+    <button class="tab-btn" data-target="suv">SUV</button>
+    <button class="tab-btn" data-target="hatchback">Hatchback</button>
+    <button class="tab-btn" data-target="sedan">Sedan</button>
+    <button class="tab-btn" data-target="commercial">Commercial</button>
+  </div>
+
+  <!-- Content -->
+  <div class="car-container">
+
+    <!-- MPV -->
+    <div class="tab-content active" id="mpv">
+      <div class="car-card">
+        <img 
+          src="https://www.toyota.astra.co.id/sites/default/files/2021-11/VEL3.png" 
+          alt="All New Veloz">
+        <h3>All New Veloz</h3>
+        <p>Starting From</p>
+        <div class="price">Rp297.200.000</div>
+      </div>
+      <div class="car-card">
+        <img 
+          src="https://www.toyota.astra.co.id/sites/default/files/2022-01/voxy_black.png" 
+          alt="All New Voxy">
+        <h3>All New Voxy</h3>
+        <p>Starting From</p>
+        <div class="price">Rp630.300.000</div>
+      </div>
+    </div>
+
+    <!-- SUV -->
+    <div class="tab-content" id="suv">
+      <div class="car-card">
+        <img 
+          src="https://www.toyota.astra.co.id/sites/default/files/2021-11/fortuner.png" 
+          alt="Fortuner">
+        <h3>Fortuner</h3>
+        <p>Starting From</p>
+        <div class="price">Rp560.000.000</div>
+      </div>
+    </div>
+
+    <!-- Hatchback -->
+    <div class="tab-content" id="hatchback">
+      <div class="car-card">
+        <img 
+          src="https://www.toyota.astra.co.id/sites/default/files/2020-08/yaris.png" 
+          alt="Yaris">
+        <h3>Yaris</h3>
+        <p>Starting From</p>
+        <div class="price">Rp300.000.000</div>
+      </div>
+    </div>
+
+    <!-- Sedan -->
+    <div class="tab-content" id="sedan">
+      <div class="car-card">
+        <img 
+          src="https://www.toyota.astra.co.id/sites/default/files/2021-09/camry.png" 
+          alt="Camry">
+        <h3>Camry</h3>
+        <p>Starting From</p>
+        <div class="price">Rp700.000.000</div>
+      </div>
+    </div>
+
+    <!-- Commercial -->
+    <div class="tab-content" id="commercial">
+      <div class="car-card">
+        <img 
+          src="https://www.toyota.astra.co.id/sites/default/files/2020-08/hiace.png" 
+          alt="Hiace">
+        <h3>Hiace</h3>
+        <p>Starting From</p>
+        <div class="price">Rp550.000.000</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
