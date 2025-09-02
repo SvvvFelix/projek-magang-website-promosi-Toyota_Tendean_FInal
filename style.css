@@ -172,11 +172,12 @@ footer {
 }
 
 .car-card {
-  max-width: 250px;
+  max-width: 300px;
   text-align: center;
   transition: transform 0.3s ease;
   color: #000000;
 }
+
 
 .car-card:hover {
   transform: scale(1.05);
