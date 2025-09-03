@@ -3,33 +3,110 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gazoo Racing</title>
+  <title>Toyota Models</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="logo-img">
-        <a href="index.html"><img src="images/toyotalogo.png" alt="Toyota Logo"></a>
-      </div>
-      <ul class="nav-links">
-        <li><a href="gazoo.html" class="active">Gazoo Racing</a></li>
-        <li><a href="model.html">Model</a></li>
-        <li><a href="more.html">More</a></li>
-      </ul>
-      <div class="logo-right">
-        <img src="images/hasjratlogo.png" alt="Hasjrat Logo">
-      </div>
-    </nav>
-  </header>
 
-  <main class="content">
-    <h1>Gazoo Racing</h1>
-    <p>Halaman khusus untuk informasi mengenai Toyota Gazoo Racing.</p>
-  </main>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo-img">
+      <a href="index.html">
+        <img src="images/toyotalgb.png" alt="Toyota LGB">
+      </a>
+    </div>
+    <div class="navbar-right">
+      <a href="gazoo.html">Gazoo Racing</a>
+      <a href="model.html">Model</a>
+      <a href="more.html">More</a>
+    </div>
+  </div>
 
-  <footer>
-    <p>&copy; 2025 Toyota Indonesia. All rights reserved.</p>
-  </footer>
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab-btn active" data-target="mpv">MPV</button>
+    <button class="tab-btn" data-target="suv">SUV</button>
+    <button class="tab-btn" data-target="hatchback">Hatchback</button>
+    <button class="tab-btn" data-target="sedan">Sedan</button>
+    <button class="tab-btn" data-target="commercial">Commercial</button>
+  </div>
+
+  <!-- Content -->
+  <div class="car-container">
+
+    <!-- MPV -->
+    <div class="tab-content active" id="mpv">
+      <div class="car-card">
+        <img src="images/veloz.png" alt="Velos">
+        <h3>All New Veloz</h3>
+        <p>Starting From</p>
+        <div class="price">Rp331.000.000</div>
+      </div>
+
+      <div class="car-card">
+        <img src="images/innova.png" alt="Innova">
+        <h3>Innova Reborn</h3>
+        <p>Starting From</p>
+        <div class="price">Rp416.300.000</div>
+      </div>
+    </div>
+
+    <!-- SUV -->
+    <div class="tab-content" id="suv">
+      <div class="car-card">
+        <img src="images/fortuner.png" alt="Fortuner">
+        <h3>Fortuner</h3>
+        <p>Starting From</p>
+        <div class="price">Rp560.000.000</div>
+      </div>
+      <div class="car-card">
+        <img src="images/rush.png" alt="Rush">
+        <h3>Rush</h3>
+        <p>Starting From</p>
+        <div class="price">Rp323.000.000</div>
+      </div>
+    </div>
+
+    <!-- Hatchback -->
+    <div class="tab-content" id="hatchback">
+      <div class="car-card">
+        <img src="images/yaris.png" alt="Yaris">
+        <h3>Yaris GR</h3>
+        <p>Starting From</p>
+        <div class="price">Rp365.500.000</div>
+      </div>
+      <div class="car-card">
+        <img src="images/agya.png" alt="agya">
+        <h3>Agya GR</h3>
+        <p>Starting From</p>
+        <div class="price">Rp274.100.000</div>
+      </div>
+    </div>
+
+    <!-- Sedan -->
+    <div class="tab-content" id="sedan">
+      <div class="car-card">
+        <img src="images/camry.png" alt="Camry">
+        <h3>Camry</h3>
+        <p>Starting From</p>
+        <div class="price">Rp845.000.000</div>
+      </div>
+    </div>
+
+    <!-- Commercial -->
+    <div class="tab-content" id="commercial">
+      <div class="car-card">
+        <img src="images/RanggaaT.png" alt="Rangga">
+        <h3>Ranga</h3>
+        <p>Starting From</p>
+        <div class="price">Rp193.000.000</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
 </body>
 </html>

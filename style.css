@@ -50,11 +50,19 @@ header {
   font-size: 14px;
   text-decoration: none;
   color: #000000;
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.navbar-right a:hover {
+  background: #e63946;   /* merah halus */
+  color: #ffffff;        /* teks jadi putih saat hover */
 }
 
 .navbar-right .dropdown {
   padding: 6px 12px;
-  background: #f3f3f3;
+  background: none;   /* ⬅ ganti jadi none */
   border-radius: 20px;
   cursor: pointer;
   color: #000000;
