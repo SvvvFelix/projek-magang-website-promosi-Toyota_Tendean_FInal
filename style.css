@@ -367,3 +367,26 @@ footer {
   transform: scale(1.15);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+/* =========================
+   Login Logo
+========================= */
+.login-logo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  z-index: 2000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-logo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
