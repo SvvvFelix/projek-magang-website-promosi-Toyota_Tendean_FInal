@@ -10,19 +10,16 @@
   <!-- Navbar -->
   <header>
     <nav class="navbar">
-      <!-- Logo kiri -->
       <div class="logo-left">
-        <img src="images/toyotalogo.png" alt="Toyota Logo">
+        <a href="index.php">
+          <img src="images/toyotalogo.png" alt="Toyota Logo">
+        </a>
       </div>
-
-      <!-- Menu navigasi -->
       <ul class="nav-links">
-        <li><a href="gazoo.html">Gazoo Racing</a></li>
-        <li><a href="model.html">Model</a></li>
-        <li><a href="more.html">More</a></li>
+        <li><a href="gazoo.php">Gazoo Racing</a></li>
+        <li><a href="model.php">Model</a></li>
+        <li><a href="more.php">More</a></li>
       </ul>
-
-      <!-- Logo kanan -->
       <div class="logo-right">
         <img src="images/hasjratlogo.png" alt="Hasjrat Logo">
       </div>
@@ -39,7 +36,7 @@
   </section>
 
   <!-- Login Logo (pojok kanan bawah) -->
-  <a href="admin/index.php">
+  <a href="login.php" class="login-wrapper">
     <img src="images/login.png" alt="Login Admin" class="login-logo">
   </a>
 

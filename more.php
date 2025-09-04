@@ -7,18 +7,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <!-- Navbar -->
   <div class="navbar">
     <div class="logo-img">
-      <a href="index.html">
+      <a href="index.php">
         <img src="images/toyotalgb.png" alt="Toyota LGB">
       </a>
     </div>
     <div class="navbar-right">
-      <a href="gazoo.html">Gazoo Racing</a>
-      <a href="model.html">Model</a>
-      <a href="more.html">More</a>
+      <a href="gazoo.php">Gazoo Racing</a>
+      <a href="model.php">Model</a>
+      <a href="more.php">More</a>
     </div>
   </div>
 
@@ -50,6 +49,5 @@
       <strong>Salles William Luntungan</strong>
     </div>
   </section>
-
 </body>
 </html>

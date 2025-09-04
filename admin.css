@@ -1,0 +1,165 @@
+/* ============================
+   Global Style
+============================ */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6fa;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+  }
+  
+  /* ============================
+     Container
+  ============================ */
+  .container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  /* ============================
+     Header / Title
+  ============================ */
+  h1, h2 {
+    color: #e30613;
+    margin-bottom: 20px;
+  }
+  
+  /* ============================
+     Navbar / Top Menu
+  ============================ */
+  nav {
+    background: #e30613;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffe600;
+  }
+  
+  /* ============================
+     Table
+  ============================ */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: center;
+  }
+  
+  th {
+    background: #e30613;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  img {
+    border-radius: 8px;
+  }
+  
+  /* ============================
+     Buttons
+  ============================ */
+  button, .btn {
+    background: #e30613;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover, .btn:hover {
+    background: #b4000d;
+  }
+  
+  /* Tombol Hapus */
+  .btn-delete {
+    background: #d32f2f;
+  }
+  
+  .btn-delete:hover {
+    background: #9a0007;
+  }
+  
+  /* ============================
+     Form
+  ============================ */
+  form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+  }
+  
+  form.edit-mode {
+    border: 2px solid #e30613;
+    background: #fff7f7;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    border-color: #e30613;
+  }
+  
+  /* ============================
+     Login Page
+  ============================ */
+  .login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    color: #e30613;
+  }
+  
+  .login-container input {
+    width: 90%;
+  }
+  
+  .login-container button {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
