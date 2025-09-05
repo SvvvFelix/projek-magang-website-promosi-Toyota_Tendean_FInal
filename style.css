@@ -378,7 +378,7 @@ footer {
   width: 55px;
   height: 55px;
   padding: 10px;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.7); /* gelap transparan */
   border-radius: 50%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   cursor: pointer;
@@ -405,15 +405,16 @@ footer {
   width: 55px;
   height: 55px;
   padding: 10px;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.7); /* gelap transparan */
   border-radius: 50%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   display: block;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
 
 .login-wrapper .login-logo:hover {
   transform: scale(1.1);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.9); /* sedikit lebih gelap saat hover */
 }
